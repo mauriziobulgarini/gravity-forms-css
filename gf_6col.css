@@ -1,5 +1,7 @@
 /* 6 columns - sixth */
 
+@media only screen and (min-width: 641px) {
+
 .gform_wrapper .top_label li.gfield.gf_first_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
 .gform_wrapper .top_label li.gfield.gf_second_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
 .gform_wrapper .top_label li.gfield.gf_third_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
@@ -97,4 +99,6 @@
 .gform_wrapper .top_label li.gfield.gf_fifth_sixth+.gform_footer,
 .gform_wrapper .top_label li.gfield.gf_sixth_sixth+.gform_footer {
 	clear: both;
+}
+
 }
