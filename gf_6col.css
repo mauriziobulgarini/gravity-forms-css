@@ -1,0 +1,100 @@
+/* 6 columns - sixth */
+
+.gform_wrapper .top_label li.gfield.gf_first_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_second_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_third_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm) {
+	width: 16.6%;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+}
+
+.gform_wrapper .top_label li.gfield.gf_first_sixth,
+.gform_wrapper .top_label li.gfield.gf_second_sixth,
+.gform_wrapper .top_label li.gfield.gf_third_sixth,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth {
+	margin-bottom: 8px;
+}
+
+.gform_wrapper .top_label li.gfield.gf_first_sixth div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_second_sixth div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_third_sixth div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_first_sixth div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_second_sixth div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_third_sixth div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth div:not(.ginput_container_date) select {
+	width: 100% !important;
+}
+
+.gform_wrapper .top_label li.gfield.gfield_error.gf_first_sixth,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_second_sixth,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_third_sixth,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_fourth_sixth,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_fifth_sixth,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_sixth_sixth {
+	width: 16%;
+}
+
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.gform_wrapper .top_label li.gfield.gf_first_sixth input.medium,
+.gform_wrapper .top_label li.gfield.gf_first_sixth input.large,
+.gform_wrapper .top_label li.gfield.gf_first_sixth select.medium,
+.gform_wrapper .top_label li.gfield.gf_first_sixth select.large,
+.gform_wrapper .top_label li.gfield.gf_second_sixth input.medium,
+.gform_wrapper .top_label li.gfield.gf_second_sixth input.large,
+.gform_wrapper .top_label li.gfield.gf_second_sixth select.medium,
+.gform_wrapper .top_label li.gfield.gf_second_sixth select.large,
+.gform_wrapper .top_label li.gfield.gf_third_sixth input.medium,
+.gform_wrapper .top_label li.gfield.gf_third_sixth input.large,
+.gform_wrapper .top_label li.gfield.gf_third_sixth select.medium,
+.gform_wrapper .top_label li.gfield.gf_third_sixth select.large,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth input.medium,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth input.large,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth select.medium,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth select.large, 
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth input.medium,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth input.large,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth select.medium,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth select.large, 
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth input.medium,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth input.large,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth select.medium,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth select.large {
+	width: 97.5%;
+}
+
+.gform_wrapper .top_label li.gfield.gf_first_sixth+li.gsection,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth+li.gsection {
+	padding: 16px 0 8px 0;
+}
+
+.gform_wrapper .top_label li.gfield.gf_first_sixth+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_second_sixth+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_third_sixth+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_first_sixth+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_second_sixth+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_third_sixth+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_fourth_sixth+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_fifth_sixth+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_sixth_sixth+.gform_footer {
+	clear: both;
+}
