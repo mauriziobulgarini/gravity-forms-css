@@ -1,0 +1,126 @@
+/* 8 columns - 8 */
+
+@media only screen and (min-width: 641px) {
+
+.gform_wrapper .top_label li.gfield.gf_1_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_2_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_3_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_4_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_5_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_6_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_7_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm),
+.gform_wrapper .top_label li.gfield.gf_8_8:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm) {
+	width: 12.5%;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+}
+
+.gform_wrapper .top_label li.gfield.gf_1_8,
+.gform_wrapper .top_label li.gfield.gf_2_8,
+.gform_wrapper .top_label li.gfield.gf_3_8,
+.gform_wrapper .top_label li.gfield.gf_4_8,
+.gform_wrapper .top_label li.gfield.gf_5_8,
+.gform_wrapper .top_label li.gfield.gf_6_8,
+.gform_wrapper .top_label li.gfield.gf_7_8,
+.gform_wrapper .top_label li.gfield.gf_8_8 {
+	margin-bottom: 8px;
+}
+
+.gform_wrapper .top_label li.gfield.gf_1_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_2_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_3_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_4_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_5_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_6_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_7_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_8_8 div:not(.ginput_container_date) input:not([type='radio']):not([type='checkbox']),
+.gform_wrapper .top_label li.gfield.gf_1_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_2_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_3_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_4_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_5_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_6_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_7_8 div:not(.ginput_container_date) select,
+.gform_wrapper .top_label li.gfield.gf_8_8 div:not(.ginput_container_date) select {
+	width: 100% !important;
+}
+
+.gform_wrapper .top_label li.gfield.gfield_error.gf_1_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_2_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_3_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_4_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_5_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_6_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_7_8,
+.gform_wrapper .top_label li.gfield.gfield_error.gf_8_8 {
+	width: 12%;
+}
+
+.gform_wrapper .top_label li.gfield.gf_8_8:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.gform_wrapper .top_label li.gfield.gf_1_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_1_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_1_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_1_8 select.large,
+.gform_wrapper .top_label li.gfield.gf_2_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_2_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_2_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_2_8 select.large,
+.gform_wrapper .top_label li.gfield.gf_3_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_3_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_3_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_3_8 select.large,
+.gform_wrapper .top_label li.gfield.gf_4_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_4_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_4_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_4_8 select.large, 
+.gform_wrapper .top_label li.gfield.gf_5_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_5_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_5_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_5_8 select.large, 
+.gform_wrapper .top_label li.gfield.gf_6_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_6_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_6_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_6_8 select.large, 
+.gform_wrapper .top_label li.gfield.gf_7_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_7_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_7_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_7_8 select.large, 
+.gform_wrapper .top_label li.gfield.gf_8_8 input.medium,
+.gform_wrapper .top_label li.gfield.gf_8_8 input.large,
+.gform_wrapper .top_label li.gfield.gf_8_8 select.medium,
+.gform_wrapper .top_label li.gfield.gf_8_8 select.large {
+	width: 97.5%;
+}
+
+.gform_wrapper .top_label li.gfield.gf_1_8+li.gsection,
+.gform_wrapper .top_label li.gfield.gf_8_8+li.gsection {
+	padding: 16px 0 8px 0;
+}
+
+.gform_wrapper .top_label li.gfield.gf_1_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_2_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_3_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_4_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_5_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_6_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_7_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_8_8+li.gfield,
+.gform_wrapper .top_label li.gfield.gf_1_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_2_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_3_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_4_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_5_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_6_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_7_8+.gform_footer,
+.gform_wrapper .top_label li.gfield.gf_8_8+.gform_footer {
+	clear: both;
+}
+
+}
